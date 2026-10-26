@@ -1,0 +1,124 @@
+{
+  "baseline_metric": "Accuracy (основная), Macro-F1 (дополнительная)",
+  "n_test": 793,
+  "accuracy": 0.8448928121059268,
+  "accuracy_ci95_wilson": [
+    0.8180401995081542,
+    0.8684200667655743
+  ],
+  "macro_f1": 0.8301402674159287,
+  "macro_f1_ci95_bootstrap": [
+    0.8027806677589345,
+    0.8554443190843581
+  ],
+  "bootstrap_n": 2000,
+  "per_class": {
+    "black_rust": {
+      "precision": 0.7473684210526316,
+      "recall": 0.8658536585365854,
+      "f1-score": 0.8022598870056498,
+      "support": 82.0
+    },
+    "brown_rust": {
+      "precision": 0.7346938775510204,
+      "recall": 0.8,
+      "f1-score": 0.7659574468085106,
+      "support": 90.0
+    },
+    "healthy": {
+      "precision": 0.9270833333333334,
+      "recall": 0.577922077922078,
+      "f1-score": 0.712,
+      "support": 154.0
+    },
+    "mildew": {
+      "precision": 0.8551724137931035,
+      "recall": 0.8378378378378378,
+      "f1-score": 0.8464163822525598,
+      "support": 148.0
+    },
+    "septoria": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9808917197452229,
+      "f1-score": 0.9476923076923077,
+      "support": 157.0
+    },
+    "smut": {
+      "precision": 0.837696335078534,
+      "recall": 0.9876543209876543,
+      "f1-score": 0.9065155807365439,
+      "support": 162.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      71,
+      5,
+      1,
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      72,
+      3,
+      9,
+      3,
+      1
+    ],
+    [
+      16,
+      14,
+      89,
+      10,
+      6,
+      19
+    ],
+    [
+      4,
+      6,
+      2,
+      124,
+      3,
+      9
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      154,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      160
+    ]
+  ],
+  "class_names": [
+    "black_rust",
+    "brown_rust",
+    "healthy",
+    "mildew",
+    "septoria",
+    "smut"
+  ],
+  "best_epoch": 15,
+  "total_train_time_sec": 1267.9,
+  "split_results": {
+    "train": {
+      "n": 4922
+    },
+    "valid": {
+      "n": 752
+    },
+    "test": {
+      "n": 793
+    }
+  }
+}

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large ML artifacts (keep metadata, ignore heavy binaries)
+artifacts/models/*.pth
+artifacts/models/*.pt
+artifacts/models/*.ckpt
+artifacts/predictions/*.npz
+pr1_data_quality/results/*.npz
+
+# Temporary files
+tmp/
+temp/
+*.tmp

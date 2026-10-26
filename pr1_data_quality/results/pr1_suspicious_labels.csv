@@ -1,0 +1,73 @@
+path,class_name,class_idx,prob_true_class
+train/Brown Rust/brown_rust_3.png,brown_rust,1,0.0009
+train/Mildew/mildew_153.png,mildew,3,0.0029
+train/Brown Rust/brown_rust_436.png,brown_rust,1,0.0053
+train/Healthy/healthy_77.png,healthy,2,0.0057
+train/Brown Rust/brown_rust_45.png,brown_rust,1,0.0059
+train/Healthy/healthy_182.png,healthy,2,0.0061
+train/Brown Rust/brown_rust_116.png,brown_rust,1,0.0066
+train/Healthy/healthy_758.png,healthy,2,0.0073
+train/Brown Rust/brown_rust_26.png,brown_rust,1,0.0079
+train/Smut/smut_648.png,smut,5,0.0089
+train/Smut/smut_103.png,smut,5,0.0089
+train/Black Rust/black_rust_276.png,black_rust,0,0.0162
+train/Smut/smut_643.png,smut,5,0.0166
+train/Brown Rust/brown_rust_123.png,brown_rust,1,0.0169
+train/Brown Rust/brown_rust_117.png,brown_rust,1,0.0172
+train/Mildew/mildew_99.png,mildew,3,0.0179
+train/Brown Rust/brown_rust_120.png,brown_rust,1,0.0205
+train/Brown Rust/brown_rust_4.png,brown_rust,1,0.0207
+train/Mildew/mildew_256.png,mildew,3,0.0288
+train/Mildew/mildew_244.png,mildew,3,0.0288
+train/Black Rust/black_rust_346.png,black_rust,0,0.0296
+train/Black Rust/black_rust_475.png,black_rust,0,0.0296
+train/Brown Rust/brown_rust_2.png,brown_rust,1,0.03
+train/Brown Rust/brown_rust_79.png,brown_rust,1,0.0314
+train/Smut/smut_410.png,smut,5,0.0316
+train/Mildew/mildew_951.png,mildew,3,0.0338
+train/Septoria/septoria_474.png,septoria,4,0.0355
+train/Brown Rust/brown_rust_16.png,brown_rust,1,0.0361
+train/Mildew/mildew_903.png,mildew,3,0.0369
+train/Black Rust/black_rust_22.png,black_rust,0,0.0384
+train/Mildew/mildew_126.png,mildew,3,0.0407
+train/Brown Rust/brown_rust_25.png,brown_rust,1,0.0459
+train/Healthy/healthy_311.png,healthy,2,0.0471
+train/Septoria/septoria_58.png,septoria,4,0.0486
+train/Brown Rust/brown_rust_13.png,brown_rust,1,0.053
+train/Mildew/mildew_251.png,mildew,3,0.055
+train/Brown Rust/brown_rust_575.png,brown_rust,1,0.0582
+train/Black Rust/black_rust_320.png,black_rust,0,0.0616
+train/Black Rust/black_rust_387.png,black_rust,0,0.0616
+train/Healthy/healthy_72.png,healthy,2,0.0629
+train/Healthy/healthy_219.png,healthy,2,0.0667
+train/Black Rust/black_rust_199.png,black_rust,0,0.0707
+train/Brown Rust/brown_rust_604.png,brown_rust,1,0.0753
+train/Healthy/healthy_771.png,healthy,2,0.0809
+train/Black Rust/black_rust_35.png,black_rust,0,0.0859
+train/Black Rust/black_rust_112.png,black_rust,0,0.088
+train/Black Rust/black_rust_97.png,black_rust,0,0.094
+train/Brown Rust/brown_rust_70.png,brown_rust,1,0.0956
+train/Brown Rust/brown_rust_72.png,brown_rust,1,0.0963
+train/Brown Rust/brown_rust_5.png,brown_rust,1,0.105
+train/Mildew/mildew_389.png,mildew,3,0.1055
+train/Black Rust/black_rust_325.png,black_rust,0,0.1123
+train/Brown Rust/brown_rust_139.png,brown_rust,1,0.1133
+train/Healthy/healthy_264.png,healthy,2,0.1166
+train/Black Rust/black_rust_166.png,black_rust,0,0.1191
+train/Mildew/mildew_341.png,mildew,3,0.1232
+train/Black Rust/black_rust_20.png,black_rust,0,0.1346
+train/Black Rust/black_rust_470.png,black_rust,0,0.1477
+train/Mildew/mildew_211.png,mildew,3,0.1607
+train/Brown Rust/brown_rust_7.png,brown_rust,1,0.1657
+train/Brown Rust/brown_rust_252.png,brown_rust,1,0.1687
+train/Mildew/mildew_219.png,mildew,3,0.1753
+train/Brown Rust/brown_rust_0.png,brown_rust,1,0.1954
+train/Healthy/healthy_712.png,healthy,2,0.2046
+train/Brown Rust/brown_rust_38.png,brown_rust,1,0.2312
+train/Brown Rust/brown_rust_795.png,brown_rust,1,0.2324
+train/Brown Rust/brown_rust_23.png,brown_rust,1,0.2355
+train/Brown Rust/brown_rust_24.png,brown_rust,1,0.3148
+train/Brown Rust/brown_rust_8.png,brown_rust,1,0.3154
+train/Brown Rust/brown_rust_505.png,brown_rust,1,0.3285
+train/Septoria/septoria_720.png,septoria,4,0.3417
+train/Brown Rust/brown_rust_144.png,brown_rust,1,0.3443

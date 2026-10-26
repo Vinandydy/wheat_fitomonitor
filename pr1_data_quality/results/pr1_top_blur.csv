@@ -1,0 +1,51 @@
+path,split,class_name,width,height,aspect_ratio,laplacian_blur,brightness,contrast,brisque
+train/Black Rust/black_rust_183.png,train,black_rust,1947,1912,1.0183,1.01,243.08,28.92,81.9001
+train/Black Rust/black_rust_39.png,train,black_rust,1947,1912,1.0183,1.01,243.08,28.92,81.9001
+test/black_rust_test/black_rust_39.png,test,black_rust,1947,1912,1.0183,1.01,243.08,28.92,81.9001
+valid/healthy_valid/healthy_857.png,valid,healthy,3521,4631,0.7603,2.68,172.55,49.59,26.0173
+valid/healthy_valid/healthy_861.png,valid,healthy,3357,4725,0.7105,2.9,176.89,44.43,23.2674
+train/Septoria/septoria_418.png,train,septoria,2485,4201,0.5915,3.03,119.1,33.63,55.1367
+train/Septoria/septoria_630.png,train,septoria,2508,4705,0.533,3.06,106.5,27.37,46.1967
+train/Black Rust/black_rust_115.png,train,black_rust,3640,3483,1.0451,3.09,113.01,48.34,50.8122
+train/Septoria/septoria_40.png,train,septoria,1636,3794,0.4312,3.21,130.77,34.74,42.2519
+test/septoria_test/septoria_40.png,test,septoria,1636,3794,0.4312,3.21,130.77,34.74,42.2519
+valid/septoria_valid/septoria_1085.png,valid,septoria,2113,4384,0.482,3.31,99.88,40.92,48.9316
+train/Black Rust/black_rust_64.png,train,black_rust,3487,3905,0.893,3.33,133.46,32.78,50.5373
+valid/healthy_valid/healthy_858.png,valid,healthy,3395,4176,0.813,3.33,178.24,47.1,26.4492
+test/septoria_test/septoria_857.png,test,septoria,2311,4690,0.4928,3.36,109.41,32.86,52.2377
+train/Septoria/septoria_508.png,train,septoria,2978,3858,0.7719,3.37,117.05,39.95,54.4728
+train/Black Rust/black_rust_56.png,train,black_rust,3751,4708,0.7967,3.39,136.72,37.62,58.3994
+train/Septoria/septoria_629.png,train,septoria,1693,2913,0.5812,3.39,114.46,35.31,50.1008
+train/Black Rust/black_rust_76.png,train,black_rust,3797,4338,0.8753,3.41,120.56,31.88,41.6378
+train/Septoria/septoria_477.png,train,septoria,2200,4574,0.481,3.44,110.58,44.1,55.1351
+train/Black Rust/black_rust_78.png,train,black_rust,3615,4538,0.7966,3.46,127.4,35.02,55.5358
+train/Septoria/septoria_370.png,train,septoria,1528,3919,0.3899,3.5,109.29,43.51,49.5366
+train/Septoria/septoria_109.png,train,septoria,2275,5331,0.4267,3.56,110.13,32.94,42.6467
+train/Black Rust/black_rust_69.png,train,black_rust,3671,4786,0.767,3.6,105.72,37.59,48.3254
+train/Septoria/septoria_579.png,train,septoria,2078,5034,0.4128,3.6,127.86,34.32,59.2131
+train/Septoria/septoria_344.png,train,septoria,1802,4852,0.3714,3.62,114.81,35.5,44.777
+train/Black Rust/black_rust_45.png,train,black_rust,2878,4143,0.6947,3.64,107.64,33.61,52.3907
+test/black_rust_test/black_rust_45.png,test,black_rust,2878,4143,0.6947,3.64,107.64,33.61,52.3907
+valid/septoria_valid/septoria_993.png,valid,septoria,2247,3355,0.6697,3.65,122.19,36.55,51.7316
+train/Septoria/septoria_916.png,train,septoria,2175,4074,0.5339,3.66,103.29,34.46,54.9474
+valid/healthy_valid/healthy_862.png,valid,healthy,3139,3600,0.8719,3.68,174.44,49.15,19.993
+train/Septoria/septoria_795.png,train,septoria,2000,4164,0.4803,3.83,97.42,33.52,53.2387
+train/Black Rust/black_rust_117.png,train,black_rust,3195,4274,0.7475,3.84,188.71,38.06,27.6879
+train/Black Rust/black_rust_196.png,train,black_rust,3195,4274,0.7475,3.84,188.71,38.06,27.6879
+train/Septoria/septoria_673.png,train,septoria,1684,4013,0.4196,3.85,111.95,31.12,49.9604
+train/Septoria/septoria_406.png,train,septoria,1535,3669,0.4184,3.87,126.27,41.89,49.4536
+valid/healthy_valid/healthy_864.png,valid,healthy,3905,3650,1.0699,3.87,171.23,37.05,24.6833
+train/Septoria/septoria_541.png,train,septoria,2635,3953,0.6666,3.88,138.61,30.41,40.0207
+train/Septoria/septoria_932.png,train,septoria,1960,3886,0.5044,3.9,120.81,32.91,44.7394
+train/Septoria/septoria_592.png,train,septoria,1771,4439,0.399,3.91,140.89,33.36,40.9147
+train/Black Rust/black_rust_63.png,train,black_rust,2405,3611,0.666,3.96,125.48,33.75,47.3882
+train/Septoria/septoria_307.png,train,septoria,2823,4484,0.6296,3.99,110.65,36.71,48.3051
+test/septoria_test/septoria_902.png,test,septoria,2931,5107,0.5739,4.05,112.3,40.98,51.8391
+train/Black Rust/black_rust_103.png,train,black_rust,2972,3208,0.9264,4.06,185.38,24.07,32.6613
+train/Black Rust/black_rust_190.png,train,black_rust,2972,3208,0.9264,4.06,185.38,24.07,32.6613
+train/Septoria/septoria_63.png,train,septoria,1911,4310,0.4434,4.06,113.66,33.83,55.7927
+train/Black Rust/black_rust_268.png,train,black_rust,4272,2848,1.5,4.07,115.12,39.05,72.6111
+train/Black Rust/black_rust_441.png,train,black_rust,4272,2848,1.5,4.07,115.12,39.05,72.6111
+train/Septoria/septoria_780.png,train,septoria,1759,3722,0.4726,4.07,110.25,47.6,44.608
+train/Septoria/septoria_95.png,train,septoria,2240,4953,0.4523,4.07,113.78,38.5,52.8229
+test/septoria_test/septoria_809.png,test,septoria,2202,4251,0.518,4.12,118.94,35.3,50.7331

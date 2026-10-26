@@ -1,0 +1,6 @@
+black_rust
+brown_rust
+healthy
+mildew
+septoria
+smut

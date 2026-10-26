@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-24T13:06:46",
+  "n_classes": 6,
+  "class_names": [
+    "black_rust",
+    "brown_rust",
+    "healthy",
+    "mildew",
+    "septoria",
+    "smut"
+  ],
+  "class_to_idx": {
+    "black_rust": 0,
+    "brown_rust": 1,
+    "healthy": 2,
+    "mildew": 3,
+    "septoria": 4,
+    "smut": 5
+  },
+  "counts": {
+    "train": {
+      "black_rust": 504,
+      "brown_rust": 856,
+      "healthy": 766,
+      "mildew": 846,
+      "septoria": 896,
+      "smut": 1054
+    },
+    "valid": {
+      "black_rust": 60,
+      "brown_rust": 60,
+      "healthy": 150,
+      "mildew": 157,
+      "septoria": 161,
+      "smut": 164
+    },
+    "test": {
+      "black_rust": 82,
+      "brown_rust": 90,
+      "healthy": 154,
+      "mildew": 148,
+      "septoria": 157,
+      "smut": 162
+    }
+  },
+  "totals": {
+    "train": 4922,
+    "valid": 752,
+    "test": 793
+  },
+  "train_imbalance_ratio": 2.0912698412698414,
+  "train_class_entropy": 1.769875773853932,
+  "train_class_entropy_max": 1.791759469228055,
+  "train_class_entropy_norm": 0.9877864770634915
+}

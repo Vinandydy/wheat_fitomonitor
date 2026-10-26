@@ -1,0 +1,70 @@
+{
+  "config": {
+    "created_at": "2026-10-25T08:58:00",
+    "seed": 42,
+    "manifest": "C:\\Users\\andy7\\stud\\wheat_fitomonitor\\artifacts\\dataset_manifest.csv",
+    "data_root": "C:\\Users\\andy7\\stud\\archive\\data",
+    "output_dir": "C:\\Users\\andy7\\stud\\wheat_fitomonitor\\pr1_data_quality\\results",
+    "phash_threshold": 10,
+    "cleanlab_folds": 5,
+    "cleanlab_epochs": 10,
+    "cleanlab_patience": 3,
+    "amp": true,
+    "use_brisque": true,
+    "environment": {
+      "python": "3.13.11",
+      "torch": "2.14.1+cu130",
+      "torchvision": "0.29.1+cu130",
+      "numpy": "2.5.4",
+      "device": "NVIDIA GeForce RTX 4070 SUPER"
+    }
+  },
+  "summary": {
+    "total": 6467,
+    "broken": 0,
+    "broken_rate": 0.0,
+    "broken_rate_ci95": [
+      0.0,
+      0.0005936567670743441
+    ],
+    "extreme_aspect_count": 754,
+    "low_blur_count": 490,
+    "feature_stats": {
+      "aspect_ratio": {
+        "mean": 1.1298677593938458,
+        "std": 0.7818978538248862,
+        "min": 0.0935,
+        "max": 18.2289,
+        "median": 1.0
+      },
+      "laplacian_blur": {
+        "mean": 1585.4808365548167,
+        "std": 2300.762211448221,
+        "min": 1.01,
+        "max": 49506.17,
+        "median": 892.06
+      },
+      "brightness": {
+        "mean": 111.02601979279419,
+        "std": 31.671473824828748,
+        "min": 16.67,
+        "max": 243.08,
+        "median": 113.91
+      },
+      "contrast": {
+        "mean": 51.008173805473945,
+        "std": 13.162930852249369,
+        "min": 14.67,
+        "max": 94.42,
+        "median": 50.93
+      },
+      "brisque": {
+        "mean": 23.50365605381166,
+        "std": 16.908598700624253,
+        "min": -39.6408,
+        "max": 148.3481,
+        "median": 22.8391
+      }
+    }
+  }
+}

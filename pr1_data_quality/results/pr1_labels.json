@@ -1,0 +1,464 @@
+{
+  "config": {
+    "created_at": "2026-10-24T15:55:44",
+    "seed": 42,
+    "manifest": "C:\\Users\\andy7\\stud\\wheat_fitomonitor\\artifacts\\dataset_manifest.csv",
+    "data_root": "C:\\Users\\andy7\\stud\\archive\\data",
+    "output_dir": "C:\\Users\\andy7\\stud\\wheat_fitomonitor\\pr1_data_quality\\results",
+    "phash_threshold": 10,
+    "cleanlab_folds": 5,
+    "cleanlab_epochs": 10,
+    "cleanlab_patience": 3,
+    "amp": true,
+    "use_brisque": true,
+    "environment": {
+      "python": "3.13.11",
+      "torch": "2.14.1+cu130",
+      "torchvision": "0.29.1+cu130",
+      "numpy": "2.5.4",
+      "device": "NVIDIA GeForce RTX 4070 SUPER"
+    }
+  },
+  "method": "cleanlab Confident Learning (5-fold CV out-of-sample probs)",
+  "n_train": 4922,
+  "n_issues": 72,
+  "label_error_rate": 0.014628199918732222,
+  "label_error_rate_ci95": [
+    0.011632654583091501,
+    0.01838078780165166
+  ],
+  "suspicious_top100": [
+    {
+      "path": "train/Brown Rust/brown_rust_3.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0009
+    },
+    {
+      "path": "train/Mildew/mildew_153.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0029
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_436.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0053
+    },
+    {
+      "path": "train/Healthy/healthy_77.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0057
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_45.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0059
+    },
+    {
+      "path": "train/Healthy/healthy_182.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0061
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_116.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0066
+    },
+    {
+      "path": "train/Healthy/healthy_758.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0073
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_26.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0079
+    },
+    {
+      "path": "train/Smut/smut_648.png",
+      "class_name": "smut",
+      "class_idx": 5,
+      "prob_true_class": 0.0089
+    },
+    {
+      "path": "train/Smut/smut_103.png",
+      "class_name": "smut",
+      "class_idx": 5,
+      "prob_true_class": 0.0089
+    },
+    {
+      "path": "train/Black Rust/black_rust_276.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0162
+    },
+    {
+      "path": "train/Smut/smut_643.png",
+      "class_name": "smut",
+      "class_idx": 5,
+      "prob_true_class": 0.0166
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_123.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0169
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_117.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0172
+    },
+    {
+      "path": "train/Mildew/mildew_99.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0179
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_120.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0205
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_4.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0207
+    },
+    {
+      "path": "train/Mildew/mildew_256.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0288
+    },
+    {
+      "path": "train/Mildew/mildew_244.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0288
+    },
+    {
+      "path": "train/Black Rust/black_rust_346.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0296
+    },
+    {
+      "path": "train/Black Rust/black_rust_475.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0296
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_2.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.03
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_79.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0314
+    },
+    {
+      "path": "train/Smut/smut_410.png",
+      "class_name": "smut",
+      "class_idx": 5,
+      "prob_true_class": 0.0316
+    },
+    {
+      "path": "train/Mildew/mildew_951.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0338
+    },
+    {
+      "path": "train/Septoria/septoria_474.png",
+      "class_name": "septoria",
+      "class_idx": 4,
+      "prob_true_class": 0.0355
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_16.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0361
+    },
+    {
+      "path": "train/Mildew/mildew_903.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0369
+    },
+    {
+      "path": "train/Black Rust/black_rust_22.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0384
+    },
+    {
+      "path": "train/Mildew/mildew_126.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.0407
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_25.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0459
+    },
+    {
+      "path": "train/Healthy/healthy_311.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0471
+    },
+    {
+      "path": "train/Septoria/septoria_58.png",
+      "class_name": "septoria",
+      "class_idx": 4,
+      "prob_true_class": 0.0486
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_13.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.053
+    },
+    {
+      "path": "train/Mildew/mildew_251.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.055
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_575.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0582
+    },
+    {
+      "path": "train/Black Rust/black_rust_320.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0616
+    },
+    {
+      "path": "train/Black Rust/black_rust_387.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0616
+    },
+    {
+      "path": "train/Healthy/healthy_72.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0629
+    },
+    {
+      "path": "train/Healthy/healthy_219.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0667
+    },
+    {
+      "path": "train/Black Rust/black_rust_199.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0707
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_604.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0753
+    },
+    {
+      "path": "train/Healthy/healthy_771.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.0809
+    },
+    {
+      "path": "train/Black Rust/black_rust_35.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.0859
+    },
+    {
+      "path": "train/Black Rust/black_rust_112.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.088
+    },
+    {
+      "path": "train/Black Rust/black_rust_97.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.094
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_70.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0956
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_72.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.0963
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_5.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.105
+    },
+    {
+      "path": "train/Mildew/mildew_389.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.1055
+    },
+    {
+      "path": "train/Black Rust/black_rust_325.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.1123
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_139.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.1133
+    },
+    {
+      "path": "train/Healthy/healthy_264.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.1166
+    },
+    {
+      "path": "train/Black Rust/black_rust_166.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.1191
+    },
+    {
+      "path": "train/Mildew/mildew_341.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.1232
+    },
+    {
+      "path": "train/Black Rust/black_rust_20.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.1346
+    },
+    {
+      "path": "train/Black Rust/black_rust_470.png",
+      "class_name": "black_rust",
+      "class_idx": 0,
+      "prob_true_class": 0.1477
+    },
+    {
+      "path": "train/Mildew/mildew_211.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.1607
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_7.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.1657
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_252.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.1687
+    },
+    {
+      "path": "train/Mildew/mildew_219.png",
+      "class_name": "mildew",
+      "class_idx": 3,
+      "prob_true_class": 0.1753
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_0.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.1954
+    },
+    {
+      "path": "train/Healthy/healthy_712.png",
+      "class_name": "healthy",
+      "class_idx": 2,
+      "prob_true_class": 0.2046
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_38.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.2312
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_795.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.2324
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_23.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.2355
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_24.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.3148
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_8.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.3154
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_505.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.3285
+    },
+    {
+      "path": "train/Septoria/septoria_720.png",
+      "class_name": "septoria",
+      "class_idx": 4,
+      "prob_true_class": 0.3417
+    },
+    {
+      "path": "train/Brown Rust/brown_rust_144.png",
+      "class_name": "brown_rust",
+      "class_idx": 1,
+      "prob_true_class": 0.3443
+    }
+  ]
+}

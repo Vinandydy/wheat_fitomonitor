@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-23T17:27:54",
+  "model": "efficientnet_b5",
+  "weights": "EfficientNet_B5_Weights.IMAGENET1K_V1",
+  "num_classes": 6,
+  "class_names": [
+    "black_rust",
+    "brown_rust",
+    "healthy",
+    "mildew",
+    "septoria",
+    "smut"
+  ],
+  "head": "Dropout(0.2) + Linear(2048 -> 6)",
+  "backbone_frozen": true,
+  "seed": 42,
+  "epochs": 15,
+  "batch_size": 16,
+  "lr": 0.001,
+  "optimizer": "Adam",
+  "loss": "CrossEntropyLoss",
+  "amp": true,
+  "early_stopping": {
+    "monitor": "valid_macro_f1",
+    "patience": 6
+  },
+  "data_root": "C:\\Users\\andy7\\stud\\archive\\data",
+  "manifest": "C:\\Users\\andy7\\stud\\wheat_fitomonitor\\artifacts\\dataset_manifest.csv",
+  "split_sizes": {
+    "train": 4922,
+    "valid": 752,
+    "test": 793
+  },
+  "environment": {
+    "python": "3.13.11",
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "numpy": "2.5.4",
+    "device": "NVIDIA GeForce RTX 4070 SUPER"
+  }
+}
