@@ -32,3 +32,11 @@ explicit = true
 [tool.uv.sources]
 torch = { index = "pytorch-cu130" }
 torchvision = { index = "pytorch-cu130" }
+
+[dependency-groups]
+dev = [
+    "pdf2docx>=0.5.13",
+    "pymupdf>=2.0",
+    "pypdf>=6.21.2",
+    "reportlab>=5.1.0",
+]

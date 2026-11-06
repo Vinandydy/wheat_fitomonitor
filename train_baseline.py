@@ -33,6 +33,8 @@ from torchvision import models
 
 from Modules import Setup, Savekt, TrainModule
 from Modules.Auxiliary_Functions import set_seeds, Graph_loss, print_train_time
+from Modules.model_factory import create_effnetb5_model
+from Modules.predictions import collect_predictions
 from Modules.stats import bootstrap_ci, wilson_ci
 
 BASE = Path(__file__).resolve().parent
@@ -51,53 +53,6 @@ def parse_args():
     parser.add_argument("--patience", type=int, default=6, help="Early stopping по val Macro-F1")
     parser.add_argument("--no-amp", action="store_true", help="Отключить AMP (смешанную точность)")
     return parser.parse_args()
-
-
-# Метод создания архитектуры baseline-модели: замороженный B5 + свой head
-def create_effnetb5_model(num_classes: int, seed: int = 42):
-    # Инициализация базовых весов модели EfficientNet-B5 (ImageNet)
-    weights = models.EfficientNet_B5_Weights.DEFAULT
-    # Трансформер изображений по структуре весов (resize 456 + нормализация ImageNet)
-    transforms = weights.transforms()
-    # Стартовая модель
-    model = models.efficientnet_b5(weights=weights)
-
-    # Замораживаем backbone: обучается только head
-    for param in model.parameters():
-        param.requires_grad = False
-
-    # Сид весов head для воспроизводимости
-    torch.manual_seed(seed)
-
-    # Преобразуем кол-во классов под нашу задачу (число классов из манифеста)
-    model.classifier = nn.Sequential(
-        nn.Dropout(p=0.2, inplace=True),
-        nn.Linear(in_features=2048, out_features=num_classes),
-    )
-    return model, transforms
-
-
-# Сбор предсказаний (logits/probs/labels/losses) по всему даталоадеру
-@torch.inference_mode()
-def collect_predictions(model, loader, device, amp=False):
-    model.eval()
-    use_amp = amp and device.type == "cuda"
-    all_logits, all_labels, all_paths = [], [], []
-    offset = 0
-    for X, y in loader:
-        with torch.amp.autocast("cuda", enabled=use_amp):
-            logits = model(X.to(device, non_blocking=True)).float()
-        all_logits.append(logits.cpu())
-        all_labels.append(y)
-        bs = len(y)
-        all_paths.extend(loader.dataset.paths[offset:offset + bs])
-        offset += bs
-    logits = torch.cat(all_logits).numpy()
-    labels = torch.cat(all_labels).numpy()
-    probs = torch.softmax(torch.from_numpy(logits), dim=1).numpy()
-    ce = nn.CrossEntropyLoss(reduction="none")
-    losses = ce(torch.from_numpy(logits), torch.from_numpy(labels)).numpy()
-    return logits, probs, labels, losses, all_paths
 
 
 # Обучение с early stopping по val Macro-F1; лучшие веса сохраняются на диск
